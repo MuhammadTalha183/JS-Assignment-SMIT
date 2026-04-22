@@ -110,3 +110,12 @@ for (let i = 0; i < twoDimensionalArray.length; i++) {
     console.log(twoDimensionalArray[i][j]);
   }
 }
+
+// use of break and continue statement
+// break statement
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    break; // Exit the loop when i is 5
+  }
+  console.log(i);
+}
