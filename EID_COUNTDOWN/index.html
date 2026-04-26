@@ -6,7 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Eid Countdown</title>
+</head>
+<body>
+
+<script>
+  const eid = new Date("June 16, 2026 00:00:00").getTime();
+
+  setInterval(function () {
+    const now = new Date().getTime();
+    const diff = eid - now;
+
+    let output = "";
+
+    if (diff <= 0) {
+      output = "🎉 Eid Mubarak!";
+    } else {
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      output = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    }
+
+    document.open();
+    document.writeln("<h2>" + output + "</h2>");
+    document.close();
+
+  }, 1000);
+</script>
+
+</body>
+</html>
 
     <script src="app.js"></script>
 </body>

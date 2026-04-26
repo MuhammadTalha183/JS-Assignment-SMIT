@@ -16,7 +16,7 @@ function eidCountdown() {
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    console.log(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+    // document.writeln(`${days}d ${hours}h ${minutes}m ${seconds}s`);
   }, 1000);
 }
 
