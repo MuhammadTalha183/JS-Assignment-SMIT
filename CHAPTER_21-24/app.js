@@ -29,3 +29,14 @@
 // var city = "Hyderabad";
 // var newCity = city.replace("Hyder", "Islam");
 
+//  alert("After replacement: " + newCity);
+// 7. Write a program to replace all occurrences of “and” with “&” in the string “Ali and Sami are best friends. They play cricket and football together.” and display the result in your browser
+// var sentence = "Ali and Sami are best friends. They play cricket and football together.";        
+// var newSentence = sentence.replace(/and/g, "&");
+
+
+// alert("After replacement: " + newSentence);
+// 8. Write a program that converts a string “472” to a number 472. Display the values & types in your browser
+// var strNumber = "472";   
+// var num = Number(strNumber);
+// alert("Value: " + num + "\nType: " + typeof num);
