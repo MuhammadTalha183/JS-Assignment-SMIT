@@ -61,3 +61,21 @@
 //     return word.charAt(0).toUpperCase() + word.slice(1);
 // }).join(' ');
 // alert("Your input in title case: " + titleCaseInput);
+
+
+
+
+
+
+// 12. Write a program that converts the variable num to string. Display the values & types in your browser
+// var num = 472;   
+// var strNumber = String(num);
+// alert("Value: " + strNumber + "\nType: " + typeof strNumber);
+
+// javascript  functions 
+// 1. Write a function that displays current date & time in your browser.
+// function displayDateTime() {
+//     var currentDateTime = new Date();
+//     alert("Current date and time: " + currentDateTime);
+// }
+// displayDateTime();
